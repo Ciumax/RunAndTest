@@ -64,15 +64,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BulletScript.cs" />
-    <Compile Include="Assets\Scripts\EnemyScript.cs" />
-    <Compile Include="Assets\Scripts\GrenadeScript.cs" />
-    <Compile Include="Assets\Scripts\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\PlayerScript.cs" />
-    <Compile Include="Assets\Scripts\SpawnerScript.cs" />
+    <Compile Include="Assets\Scripts\Controllers\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Controllers\SpawnerScript.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerBasicScript.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovementScript.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerWeaponsScript.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\Scripts\UICooldownScript.cs" />
-    <Compile Include="Assets\Scripts\UIHealthScript.cs" />
+    <Compile Include="Assets\Scripts\UI\UICooldownScript.cs" />
+    <Compile Include="Assets\Scripts\UI\UIHealthScript.cs" />
+    <Compile Include="Assets\Scripts\Weapons\BulletScript.cs" />
+    <Compile Include="Assets\Scripts\Weapons\GrenadeScript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
